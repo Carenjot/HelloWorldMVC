@@ -17,7 +17,13 @@ repositories {
 }
 
 dependencies {
-    
+    testCompile 'org.testng:testng:6+'
+}
+
+test {
+	UseTestNG()
 }
 
 group='helloworldmvc.model'
+
+
